@@ -4,3 +4,4 @@ target/
 
 # Files
 *.iml
+config.prod.properties
