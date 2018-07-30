@@ -71,7 +71,7 @@ public class KafkaToBeamProcessor {
 
         Options options = PipelineOptionsFactory.fromArgs(args).as(Options.class);
 
-        File configFile = new File("config.prod.properties");
+        File configFile = new File("config.properties");
 
         try {
             FileReader reader = new FileReader(configFile);
